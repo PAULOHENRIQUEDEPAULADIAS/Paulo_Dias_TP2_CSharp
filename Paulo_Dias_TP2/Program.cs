@@ -112,11 +112,13 @@ namespace TP2
                     {
                         Age age = new();
 
-                        Console.WriteLine("Por favor digite uma data aleatória (Formato DD/MM/AAAA): ");
-                        string firstDate = Console.ReadLine();
+                        
 
                         while (true)
                         {
+                            Console.WriteLine("Por favor digite uma data aleatória (Formato DD/MM/AAAA): ");
+                            string firstDate = Console.ReadLine();
+
                             if (DateTime.TryParse(firstDate, out DateTime CFirstDate))
                             {
                                 Console.WriteLine("Por favor digite outra data aleatória(Formato DD / MM / AAAA): ");

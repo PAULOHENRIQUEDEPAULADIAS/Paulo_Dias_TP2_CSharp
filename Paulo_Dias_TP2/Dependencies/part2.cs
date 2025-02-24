@@ -16,9 +16,9 @@ namespace TP2
             double kelvin = (double)celcius + 273.15;
 
             Console.WriteLine();
-            Console.WriteLine($"Temperatura em Celcius: {celcius} \n" +
-                              $"Temperatura em Fahrenheit: {fahrenheit} \n" +
-                              $"Temperatura em Kelvin: {kelvin} ");
+            Console.WriteLine($"Temperatura em Celcius: {celcius:F0} \n" +
+                              $"Temperatura em Fahrenheit: {fahrenheit:F0} \n" +
+                              $"Temperatura em Kelvin: {kelvin:F0} ");
         }
 
         public void BMICalculation(int CWeight, double CHeight)

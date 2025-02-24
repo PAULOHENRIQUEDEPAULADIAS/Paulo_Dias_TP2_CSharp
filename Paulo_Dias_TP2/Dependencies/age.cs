@@ -27,7 +27,7 @@ namespace TP2
                 difMonth += 12;
             }
 
-            if (difMonth < 0)
+            if (difDays < 0)
             {
                 DateTime dateLastMonth = now.AddMonths(-1);
                 difDays += DateTime.DaysInMonth(dateLastMonth.Year, dateLastMonth.Month);

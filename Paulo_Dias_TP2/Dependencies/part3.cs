@@ -87,7 +87,7 @@ namespace TP2
 
             Console.WriteLine($"Salário Bruto: R$ {wage:F2} \n" +
                               $"Desconto INSS: -R$ {INSS:F2} \n" +
-                              $"DEsconto IRPF: -R$ {IRPF:F2} \n" +
+                              $"Desconto IRPF: -R$ {IRPF:F2} \n" +
                               $"Salário Líquido: R$ {liquidWage:F2} \n");
 
         }
